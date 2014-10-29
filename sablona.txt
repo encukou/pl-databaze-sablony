@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Stránka</title>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <td>
+                    Autor
+                </td>
+                <th>
+                    Název
+                </th>
+                <td>
+                    Obsah
+                </td>
+            </tr>
+        {% for nazev, obsah, jmeno, prijmeni in clanky %}
+            <tr>
+                <td>
+                    {{jmeno}} {{prijmeni}}
+                </td>
+                <th>
+                    {{nazev}}
+                </th>
+                <td>
+                    {{obsah}}
+                </td>
+            </tr>
+        {% endfor %}
+        </table>
+    </body>
+</html>

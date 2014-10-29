@@ -1,0 +1,10 @@
+Databáze a šablony.
+Komentoval jsem to osobně, takže
+v samotném kódu moc komentářů není
+(na projektoru není místo).
+
+Třeba někdo pár komentářů doplní?
+
+0. pip install flask jinja2
+1. Spustit db.py, což připraví databázi
+2. Spustit sablony.py, což spustí server
